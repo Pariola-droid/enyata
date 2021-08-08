@@ -23,7 +23,7 @@ class Navbar extends Component{
                                 <Link to="/">showcase</Link>
                             </li>
                             <li>
-                                <Link to="/">academy</Link>
+                                <Link to="/">contact</Link>
                             </li>
                             <li>
                                 <Link to="/" className={styles.a}>Work with us</Link>

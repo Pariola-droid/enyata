@@ -2,8 +2,9 @@ import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 
 import Navbar from '../../components/home/Navbar'
-import Footer from '../../components/home/Footer'
+import Header from '../../components/home/Navbar'
 import Show from '../../components/showcase/show'
+import Footer from '../../components/home/Footer'
 
 import motif from "../../assets/images/motif.svg"
 import graph from "../../assets/images/hero-graph.svg"
@@ -17,7 +18,6 @@ import rocket from "../../assets/images/rocket.svg"
 import scale from "../../assets/images/scale.svg"
 import verified from "../../assets/images/verified.svg"
 import james from "../../assets/images/James.png"
-// import kafene from "../../assets/images/featured-image-kafene.png"
 
 import styles from '../../styles/home/index.module.scss'
 
@@ -31,42 +31,7 @@ class Home extends Component{
                 <Navbar />
 
                 <main>
-                    <header className={styles.header}>
-                        <div className={styles.wrapper}>
-                            <div className={styles.inWrap}>
-                                
-                                <div className={styles.motifH}>
-                                    <img src={motif} alt=""/>
-                                </div>
-
-                                <div className={styles.wText}>
-                                    <h1>
-                                        Build and ship products efficiently with Enyata
-                                    </h1>
-
-                                    <p>
-                                        Leverage Enyata's world-class engineering teams to get your ideas and projects up and running quickly.
-                                    </p>
-
-                                    <Link to="/">
-                                        get started
-                                    </Link>
-                                </div>
-
-                                <div className={styles.wImage}>
-                                    <img src={dots} className={styles.img} alt="" />
-                                    <img src={graph} className={styles.img} alt=""/>                                    
-                                    <img src={human} className={styles.img} alt="" />
-                                    
-                                    <div className={styles.checkT}>
-                                        <img src={check} alt="" />
-                                        <p>Best in class engineering for the finest ideas.</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </header>
+                    <Header />
 
                     <section className={styles.we_do}>
                         <div className={styles.wrapper}>
