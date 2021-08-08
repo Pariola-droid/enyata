@@ -1,38 +1,27 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 
-import Navbar from '../../components/home/Navbar'
-import Header from '../../components/home/header'
-import WeDo from '../../components/home/WeDo'
+import NavOther from '../../components/general/NavOther'
+import Header from '../../components/general/header'
 import Show from '../../components/showcase/show'
-import WhyUs from '../../components/home/WhyUs'
-import Clients from '../../components/home/clients'
 import Cta from '../../components/home/cta'
 import Footer from '../../components/home/Footer'
 
+import styles from '../../styles/showcase/showcase.module.scss'
 
-import styles from '../../styles/home/index.module.scss'
+class Showcase extends Component{
 
-class Home extends Component{
-
-    
 
     render(){
         return(
-            <div>
-                <Navbar />
+            <div className={styles.showcase_page}>
+                <NavOther />
 
                 <main>
-                    
                     <Header />
-                    <WeDo />           
 
                     <section className={styles.projects}>
-                        <div className={styles.wrapper}>
-                            <div className={styles.pro_tag}>
-                                FEATURED PROJECTS
-                            </div>
-
+                        <div className={styles.wrapper}>                            
                             <div className={styles.pro_items}>
                                 <Show />
                             </div>    
@@ -41,15 +30,13 @@ class Home extends Component{
                             </div>    
                             <div className={styles.pro_items}>
                                 <Show />
-                            </div> 
+                            </div>                            
                         </div>
                     </section>
 
-                    <WhyUs />                   
-                    <Clients />
-                    <Cta />              
+                    <Cta />
 
-                </main>
+                </main>                
 
                 <Footer />
 
@@ -58,4 +45,4 @@ class Home extends Component{
     }
 }
 
-export default Home;
+export default Showcase;

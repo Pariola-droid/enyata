@@ -1,5 +1,8 @@
 @import "../variables";
 
+.showcase_page {
+    background: #f9f9f9;
+}
 
 .projects {
     margin-top: 50px;
@@ -14,28 +17,6 @@
         display: grid;
         place-items: center; //2070px
         // background-color: transparent;
-
-        & .pro_tag {
-            display: flex;
-            justify-content: normal;
-            align-items: center;
-            margin-bottom: 14px;
-            font-weight: 600;
-            color: #333;
-            letter-spacing: .1em;
-            position: relative;
-            text-transform: uppercase;
-            width: 1050px;
-
-            &::before {
-                content: "";
-                margin-right: 8px;
-                display: flex;
-                width: 64px;
-                height: 1px;
-                background: #f0a536;
-            }
-        }
        
         .pro_items {
             padding: 100px 0;
@@ -46,8 +27,9 @@
             position: relative;
             overflow: hidden;
 
-            &:nth-last-child(1) { //3
+            &:last-child { //3
                 background: #fff8df;
+                padding-bottom: 200px;
             }
             &:nth-last-child(2) { //2
                 background: #f6f5f9;
@@ -58,14 +40,3 @@
         } 
     }
 }
-
-// left this in hre deliberately for now
-
-// responsiveness
-
-@media (max-width:600px) {
-
- 
-
-}
-

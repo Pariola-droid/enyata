@@ -1,6 +1,6 @@
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import Regnify from "./pages/home/index";
-import Faq from "./pages/faq/index";
+import Showcase from "./pages/showcase/index";
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Switch>
         
         <Route path="/" exact component={Regnify} />
-        <Route path="/faq" exact component={Faq} />
+        <Route path="/showcase" exact component={Showcase} />
 
       </Switch>
     </Router>

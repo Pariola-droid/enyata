@@ -8,13 +8,6 @@ import graph from "../../assets/images/hero-graph.svg"
 import dots from "../../assets/images/orange-dots.svg"
 import human from "../../assets/images/hero-image.png"
 import check from "../../assets/images/hero-check.svg"
-import we_do_img from "../../assets/images/what-we-do-img.png"
-import purpleDs from "../../assets/images/purple-dots.svg"
-import world from "../../assets/images/world-class.svg"
-import rocket from "../../assets/images/rocket.svg"
-import scale from "../../assets/images/scale.svg"
-import verified from "../../assets/images/verified.svg"
-import james from "../../assets/images/James.png"
 
 class Header extends Component{   
 

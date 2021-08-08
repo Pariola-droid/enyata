@@ -1,10 +1,10 @@
 import React, {Component} from "react"
 import { Link } from 'react-router-dom'
 
-import styles from "../styles/home/navbar.module.scss";
-import logo from "../../assets/images/enyata.svg"
+import styles from "../styles/general/navOther.module.scss";
+import logo_purple from "../../assets/images/enyata_purple.svg"
 
-class Navbar extends Component{   
+class NavOther extends Component{   
 
     render(){
         return(
@@ -13,8 +13,8 @@ class Navbar extends Component{
                     <div className={styles.navInner}>                        
                         <div className={styles.navLogo}>
                             <Link to="/">
-                                <img src={logo} alt="" />
-                            </Link>    
+                                <img src={logo_purple} alt="" />
+                            </Link>   
                         </div>
                         
                         <ul className={styles.navList}>
@@ -38,4 +38,4 @@ class Navbar extends Component{
     }
 }
 
-export default Navbar;
+export default NavOther;

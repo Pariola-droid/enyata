@@ -38,7 +38,7 @@
                 letter-spacing: .05em;                
 
                 & a {
-                    color: #fff;
+                    color: #333;
                 }
 
                 &:last-of-type {   
@@ -68,17 +68,17 @@
                             transition: all .5s ease-in-out;
                             white-space: nowrap;
                             
-                            background-color: rgba(255, 255, 255, 0.288);
+                            background-color: #48178846;
                         }
 
                         &:hover::before{
                             border-radius: 10px;
                             border-bottom: 0px;
-                            color: #481788;
+                            color: #fff;
                             height: 100%;  
-                            background-color: #fff;                                                     
+                            background-color: #481788;                                                     
                         }
-                    }                    
+                    }                
                     
                 }
             }
