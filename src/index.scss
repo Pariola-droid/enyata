@@ -50,3 +50,7 @@ figure {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+input:-internal-autofill-selected {
+    background-color: rgb(255, 255, 255) !important;
+}

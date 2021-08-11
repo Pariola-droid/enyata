@@ -19,16 +19,16 @@ class Navbar extends Component{
                         
                         <ul className={styles.navList}>
                             <li>
-                                <Link to="/">about us</Link>
+                                <Link to="/about">about us</Link>
                             </li>
                             <li>
                                 <Link to="/showcase">showcase</Link>
                             </li>
                             <li>
-                                <Link to="/">contact</Link>
+                                <Link to="/contact">contact</Link>
                             </li>
                             <li>
-                                <Link to="/" className={styles.a}>Work with us</Link>
+                                <Link to="/contact" className={styles.a}>Work with us</Link>
                             </li>
                         </ul>
                     </div>

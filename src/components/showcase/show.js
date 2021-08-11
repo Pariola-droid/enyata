@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 import kafene from "../../assets/images/featured-image-kafene.png"
 import dots from "../../assets/images/orange-dots.svg"
