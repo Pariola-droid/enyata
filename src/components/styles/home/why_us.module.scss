@@ -4,6 +4,7 @@
     padding: 120px 0 80px;
     display: grid;
     place-items: center;
+    overflow-x: hidden;
 
     @media (max-width:550px) {
         padding-top: 100px;
