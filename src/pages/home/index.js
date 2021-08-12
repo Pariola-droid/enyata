@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 // import {Link} from 'react-router-dom'
 
 import Navbar from '../../components/home/Navbar'
+import NavMobile from '../../components/home/navMobile'
 import Header from '../../components/home/header'
 import WeDo from '../../components/home/WeDo'
 import Show from '../../components/showcase/show'
@@ -21,7 +22,8 @@ class Home extends Component{
         return(
             <div>
                 <Navbar />
-
+                <NavMobile />
+                
                 <main>
                     
                     <Header />

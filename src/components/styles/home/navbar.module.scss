@@ -93,8 +93,11 @@
 }
 
 
-@media (max-width:800px) {
+@media (max-width:550px) {
 
+.navbar {
+    visibility: hidden;
+}
     
 
 }

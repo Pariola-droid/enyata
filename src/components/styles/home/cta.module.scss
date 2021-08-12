@@ -86,3 +86,43 @@
         }
     }
 }
+
+
+
+@media (max-width:550px) {
+
+.cta {
+
+    & .wrapper {
+        flex-direction: column;
+        width: 90%;
+        margin-top: 150px;
+        white-space: unset;
+
+        & .content {
+            max-width: unset;
+            width: 100%;
+            height: fit-content;   
+            text-align: center;         
+
+            & .title {
+                font-size: 25px;
+                font-weight: 600;
+                line-height: 40px;
+                margin-bottom: 16px;
+            }
+
+            & .desc {
+                font-size: 17px;
+                line-height: 30px;
+            }
+        }
+
+        & .button {
+            margin-top: 40px;
+        }
+    }
+}
+
+
+}

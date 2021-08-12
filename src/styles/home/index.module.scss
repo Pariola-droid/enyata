@@ -8,11 +8,16 @@
     display: grid;
     place-items: center;
 
+    @media (max-width:550px) {
+        margin-top: 0px;
+    }
+
     .wrapper {
         width: 100%;
         height: auto;
         display: grid;
-        place-items: center; //2070px
+        place-items: center;
+        overflow: hidden; //2070px
         // background-color: transparent;
 
         & .pro_tag {
@@ -46,6 +51,12 @@
             position: relative;
             overflow: hidden;
 
+             @media (max-width:550px) {
+                padding: 70px 0;
+                padding-bottom: 250px;
+            }
+
+
             &:nth-last-child(1) { //3
                 background: #fff8df;
             }
@@ -63,9 +74,20 @@
 
 // responsiveness
 
-@media (max-width:600px) {
+@media (max-width:550px) {
 
- 
+.projects {
+
+    .wrapper {
+        width: 100%;
+
+        & .pro_tag {
+            font-size: 14px;
+            width: 90%;
+        }
+    }
+
+} 
 
 }
 

@@ -18,6 +18,11 @@ footer {
         left: 0;
         width: 260px;
         transition: all 2.5s cubic-bezier(.6,.01,.2,1);
+
+        @media (max-width:550px) {
+            width: 200px;
+        }
+        
     }
 
     & .wrapper {
@@ -60,6 +65,10 @@ footer {
 
             & .linksF {
 
+                @media (max-width:550px) {
+                    font-size: 95%;
+                }
+
                 & li {
                     margin-bottom: 10px;
                     text-transform: capitalize;
@@ -84,6 +93,10 @@ footer {
             }
 
             & .contentF {
+
+                @media (max-width:550px) {
+                    font-size: 95%;
+                }
 
                 & a {
                     color: #ffd166;
@@ -151,8 +164,78 @@ footer {
 }
 
 
-@media (max-width:600px) {
+@media (max-width:550px) {
 
-    
+footer {
+    background: #481788;
+    position: relative;
+    height: fit-content;
+    padding-top: 350px;
+    font-size: 16px;
+    text-align: center;
+
+    & .wrapper {
+        flex-direction: column;
+        position: relative;
+        max-width: unset;
+        width: fit-content;
+        align-items: center;
+        // background-color: aliceblue;
+
+        & .brandF {
+            width: fit-content;
+            margin: 0 auto;
+
+            & .logoF {
+                margin: 0 auto;
+                margin-bottom: 25px;
+            }
+        }
+
+        & .companyF {
+            margin-right: unset;
+            margin-top: 35px;
+        }
+
+        & .contactF {
+            margin-top: 35px;
+        }
+    }
+
+    & .foot {
+        margin: 0 auto;
+        margin-top: 32px;
+        flex-direction: column-reverse;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        max-width: none;
+        // background-color: aliceblue;        
+        opacity: .5;
+
+        & .copy {
+            margin-top: 50px;
+            font-size: 90%;
+        }
+
+        & .social {
+            width: fit-content;
+            height: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            & a {
+                display: block;
+                height: 100%;
+                margin: 0 16px;
+
+                &:not(:last-of-type) {
+                    margin-right: 0;                    
+                }                
+            }
+        }
+    }
+}
     
 }
