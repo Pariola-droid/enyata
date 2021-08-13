@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 // import {Link} from 'react-router-dom'
 
 import NavOther from '../../components/general/NavOther'
+import NavMobile from '../../components/general/navMobile'
 import Footer from '../../components/home/Footer'
 
 import dots from "../../assets/images/orange-dots.svg"
@@ -15,6 +16,7 @@ class Contact extends Component{
         return(
             <div>
                 <NavOther />
+                <NavMobile />
 
                 <main>
                     <section className={styles.contact}>
