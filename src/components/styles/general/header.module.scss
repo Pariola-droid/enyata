@@ -3,6 +3,10 @@
     position: relative;
     background: #f9f9f9;
 
+    @media (max-width:550px) {
+        width: 100%;
+    }
+
     & .wrapper {
         display: flex;
         justify-content: space-between;
@@ -24,4 +28,28 @@
             }
         }
     }
+}
+
+@media (max-width:550px) {
+
+.header {
+
+    & .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 80%;
+        margin: 0 auto;
+
+        & .content {
+            max-width: none;
+
+            & .title {
+                font-size: 28px;
+                line-height: 38px;
+            }
+        }
+    }
+}
+  
 }
