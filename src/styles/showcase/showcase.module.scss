@@ -2,14 +2,28 @@
 
 .showcase_page {
     background: #f9f9f9;
+    position: relative;
+
+    &::before { // cheatcode no go touch am.
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff8df;
+        position: absolute;
+    }
 }
 
 .projects {
-    margin-top: 50px;
     height: auto;
     width: 100%;
     display: grid;
     place-items: center;
+
+    @media (max-width:550px) {
+        margin-bottom: 100px;
+    }
 
     .wrapper {
         width: 100%;
@@ -27,10 +41,20 @@
             position: relative;
             overflow: hidden;
 
+            @media (max-width:550px) {
+                // padding: 70px 0;
+                padding-bottom: 250px;
+            }
+
             &:last-child { //3
                 background: #fff8df;
                 padding-bottom: 200px;
+
+                @media (max-width:550px) {
+                    padding-bottom: 250px; 
+                }
             }
+
             &:nth-last-child(2) { //2
                 background: #f6f5f9;
             }
@@ -40,3 +64,4 @@
         } 
     }
 }
+

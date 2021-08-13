@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 // import {Link} from 'react-router-dom'
 
 import NavOther from '../../components/general/NavOther'
+import NavMobile from '../../components/general/navMobile'
 import Header from '../../components/general/header'
 import Show from '../../components/showcase/show'
 import Cta from '../../components/home/cta'
@@ -16,6 +17,7 @@ class Showcase extends Component{
         return(
             <div className={styles.showcase_page}>
                 <NavOther />
+                <NavMobile />
 
                 <main>
                     <Header />

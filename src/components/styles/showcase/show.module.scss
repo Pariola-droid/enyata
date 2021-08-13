@@ -113,6 +113,10 @@
                 margin: 0 auto;
                 bottom: 0px;
 
+                @media (max-width:550px) {
+                  
+                }
+
                 & .img_pro {
                     //calc(100% - 500px)
                     height: 100%;

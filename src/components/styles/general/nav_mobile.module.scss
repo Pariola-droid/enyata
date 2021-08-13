@@ -38,29 +38,6 @@
             margin-bottom: 1px;
 
             & span {
-                background: #fff;
-                // position: absolute;
-                width: 32px;
-                height: 4px;
-                border-radius: 16px;
-
-            }
-        }
-
-        & .menuIG {
-            display: block;
-            width: fit-content;
-            height: 20px;
-            position: relative;
-            margin-top: -8px;
-            transition: all .2s ease-in-out;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-direction: column;
-            margin-bottom: 1px;            
-
-            & span {
                 background: #481788;
                 // position: absolute;
                 width: 32px;
@@ -69,6 +46,7 @@
 
             }
         }
+
     }
 }
 
