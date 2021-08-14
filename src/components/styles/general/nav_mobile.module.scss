@@ -21,7 +21,9 @@
         height: 33px;
        
         & .navLogo {
-
+            a > img {
+                height: 40px;
+            }
         }
 
         & .menuI {
@@ -66,7 +68,11 @@
         width: 80%;
 
         & .navLogo a > img{
-            height: 28px;
+            height: 35px;
+        }
+
+        & .menuI {
+            margin-top: 2px;
         }
     }
 }

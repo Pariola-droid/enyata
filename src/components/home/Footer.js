@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import styles from "../styles/home/footer.module.scss";
 
-import logo from "../../assets/images/enyata.svg"
+import logo from "../../assets/images/regnify-white.png"
 import Fmotif from "../../assets/images/footer-motif.svg"
 
 class Footer extends Component{   

@@ -31,7 +31,7 @@ class Header extends Component{
                                         Leverage Enyata's world-class engineering teams to get your ideas and projects up and running quickly.
                                     </p>
 
-                                    <Link to="/">
+                                    <Link to="/contact">
                                         get started
                                     </Link>
                                 </div>

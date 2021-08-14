@@ -2,14 +2,14 @@ import React, {Component} from "react"
 import { Link } from 'react-router-dom'
 
 import styles from "../styles/home/navbar.module.scss";
-import logo from "../../assets/images/enyata.svg"
+import logo from "../../assets/images/regnify-white.png"
 
 class Navbar extends Component{   
 
     render(){
         return(
             <div>
-                <nav className={styles.navbar} id="klas">
+                <nav className={styles.navbar} id="">
                     <div className={styles.navInner}>                        
                         <div className={styles.navLogo}>
                             <Link to="/">

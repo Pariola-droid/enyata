@@ -15,7 +15,7 @@ class Cta extends Component{
                                 <div className={styles.desc}>Reach out and we can create magic together.</div>
                             </div>
                             <div className={styles.button}>
-                                <Link to="/">
+                                <Link to="/contact">
                                     work with us
                                 </Link>
                             </div>

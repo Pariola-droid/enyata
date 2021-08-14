@@ -21,7 +21,9 @@
         height: 33px;
        
         & .navLogo {
-
+            a > img {
+                height: 40px;
+            }
         }
 
         & .menuI {
@@ -36,6 +38,7 @@
             justify-content: space-between;
             flex-direction: column;
             margin-bottom: 1px;
+            cursor: pointer;
 
             & span {
                 background: #fff;
@@ -47,28 +50,7 @@
             }
         }
 
-        & .menuIG {
-            display: block;
-            width: fit-content;
-            height: 20px;
-            position: relative;
-            margin-top: -8px;
-            transition: all .2s ease-in-out;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-direction: column;
-            margin-bottom: 1px;            
-
-            & span {
-                background: #481788;
-                // position: absolute;
-                width: 32px;
-                height: 4px;
-                border-radius: 16px;
-
-            }
-        }
+        
     }
 }
 
@@ -88,7 +70,11 @@
         width: 80%;
 
         & .navLogo a > img{
-            height: 28px;
+            height: 35px;
+        }
+
+        & .menuI {
+            margin-top: 2px;
         }
     }
 }

@@ -2,7 +2,7 @@ import React, {Component} from "react"
 import { Link } from 'react-router-dom'
 
 import styles from "../styles/general/navOther.module.scss";
-import logo_purple from "../../assets/images/enyata_purple.svg"
+import logo_blue from "../../assets/images/regnify-blue.png"
 
 class NavOther extends Component{   
 
@@ -13,7 +13,7 @@ class NavOther extends Component{
                     <div className={styles.navInner}>                        
                         <div className={styles.navLogo}>
                             <Link to="/">
-                                <img src={logo_purple} alt="" />
+                                <img src={logo_blue} alt="" />
                             </Link>   
                         </div>
                         
